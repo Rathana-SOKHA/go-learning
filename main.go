@@ -12,3 +12,4 @@ func main() {
     fmt.Println("Discount:", discount)
     fmt.Println("Final price:", float64(costs)-discount)
 }
+
