@@ -3,11 +3,14 @@ package main
 import "fmt"
 
 func main() {
-    name := "Rathana"
-    age := 20
-    isLearningGo := true
+    length := 8
+    width := 5
 
-    fmt.Println("Name:", name)
-    fmt.Println("Age:", age)
-    fmt.Println("Learning Go:", isLearningGo)
+    area := length * width
+    perimeter := 2 * (length + width)
+
+    fmt.Println("Length:", length)
+    fmt.Println("Width:", width)
+    fmt.Println("Area:", area)
+    fmt.Println("Perimeter:", perimeter)
 }
